@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "643080722490",
+    "firebase_url": "https://store-data-45a69-default-rtdb.firebaseio.com",
+    "project_id": "store-data-45a69",
+    "storage_bucket": "store-data-45a69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643080722490:android:9a810a4578624c0aeebd03",
+        "android_client_info": {
+          "package_name": "com.example.sotrdata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEO_vSapSE2B6811aOMFKblsQAFUtd_wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
