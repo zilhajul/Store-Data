@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/NameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/AgeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/SaveButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/ShowButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Data"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/NextButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next page"
+        android:textSize="25sp" />
+
+
+
+
+    <ProgressBar
+        android:id="@+id/loginProgressbarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
